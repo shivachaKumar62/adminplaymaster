@@ -1,0 +1,23 @@
+// Here you can add other styles
+.sidebar-nav .nav-link.active{
+    background-color: white;
+    color:#0d6efd
+}
+.sidebar-nav .nav-link:hover{
+    background-color: white;
+    color:#0d6efd
+}
+.sidebar-nav .nav-link.active .nav-icon{
+    color:#0d6efd
+}
+.sidebar-nav .nav-link .nav-icon{
+    color:#fff
+}
+
+    .sidebar-nav .nav-link:hover .nav-icon{
+    color:#0d6efd
+}
+.sidebar-nav .nav-link{
+    font-size: 18px;
+    font-weight: bold;
+}

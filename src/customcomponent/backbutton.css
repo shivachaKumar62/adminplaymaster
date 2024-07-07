@@ -1,0 +1,53 @@
+.share {
+    background: #fafafa;
+    height: 41px;
+    width: 115px;
+    border-radius: 40px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    border: none;
+    font-size: 25px;
+  }
+  
+  /* .share:hover{
+    transform: scale(1.1);
+  } */
+  .share span {
+    position: absolute;
+    background: #1670f8;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s linear;
+    z-index: 10;
+    border-radius: 40px;
+    user-select: none;
+  }
+  
+  .share span .fa-share-alt {
+    margin-right: 5px;
+    font-size: 16px;
+  }
+  
+  .share:hover span {
+    transform: translateX(-100%);
+  }
+  
+  .share a {
+    margin: 5px;
+  }
+  
+  .share:hover {
+    font-size: 25px;
+  }
+  
