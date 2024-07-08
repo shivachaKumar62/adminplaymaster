@@ -5,7 +5,7 @@ import Cookies from 'universal-cookie'
 const cookie = new Cookies()
 
 // axios.defaults.baseURL = 'https://sitserpapi.sitslive.com/'
-const baseURL = 'http://3.6.99.5:8000/'
+const baseURL = 'https://playmaster.playmaster11.com/api/'
 
 axios.defaults.headers = {
   Accept: 'application/json',
